@@ -6,4 +6,6 @@ var config = {
     scene: [Scene1, Scene2]
 }
 
-var game = new Phaser.Game(config);
+window.onload = function(){
+    var game = new Phaser.Game(config);
+}
